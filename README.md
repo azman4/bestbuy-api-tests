@@ -6,7 +6,6 @@
 * [Prerequisites](#Prerequisites)
 * [Installation](#Installation)
 * [Usage](#Usage)
-* [Troubleshooting](#Troubleshooting)
 
 ## Introduction
 
