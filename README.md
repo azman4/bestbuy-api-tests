@@ -10,7 +10,7 @@
 
 ## Introduction
 
-This is protractor BDD Framework targeted to handle both Angular and Non-Angular Web Applications.
+This is protractor BDD Framework targeted to handle both Angular and Non-Angular Web Applications & APIs.
 
 ## Prerequisites
 
