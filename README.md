@@ -17,7 +17,7 @@ This section details any and all prerequisites in order for the application to b
 
 a. Bestbuy APIs (server) are up and running on your local server -> npm start.
 
-b. Using Terminal -> Go to the e2e folder (since this is main test folder) from the main folder -> command = cd e2e.
+b. Using Terminal -> Go to the e2e folder (since this is the test folder) from the main folder -> command = cd e2e.
 
 ### Tools
 Below tools/dependencies are required to be installed in the machine from where automation scripts would be triggered-
