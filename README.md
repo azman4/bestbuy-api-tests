@@ -1,4 +1,4 @@
-# DIGH_VEGA_ANDROID_AUTOMATION
+# Protractor with Cucumber BDD Framework
 
 ## Table of Contents
 
@@ -28,6 +28,9 @@ Below tools/dependencies are required to be installed in the machine from where 
 ## Installation
 
 The installation section details steps that need to be taken in order to properly install the application.
+Prequisite:
+a. Best APIs are up and running on your local server.
+b. Using Terminal -> Go to the e2e folder from the main folder -> comman = cd e2e.
 
 1. Installation step 1
 
@@ -37,7 +40,7 @@ This global installation is required in order for the application to function pr
 
 2. Installation step 2
 
-> webdriver-manager update
+> node node_modules/protractor/bin/webdriver-manager update
 
 This command downloads/updates the browser drivers.
 
@@ -54,13 +57,13 @@ This command downloads/updates the browser drivers.
 
 •	Run 'npm install' to install relevant dependencies from package.json. This will create a 'node_modules' folder within the framework structure 
 
-• Run 'webdriver-manager update' to update browser drivers
+• Run 'node node_modules/protractor/bin/webdriver-manager update' to update browser drivers
 
 ### Commands
 
-#### Run Scripts on Local Browser (By default chrome)
+#### Run Scripts on Local Browser (By default headless chrome)
 
-1. npm run protractor 
+1. npm run e2e 
 This command would start execution on the platform details provided during execution 
 
 HTML Reports get generated using default OS browser
