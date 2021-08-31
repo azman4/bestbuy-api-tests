@@ -15,6 +15,8 @@ This is protractor BDD Framework targeted to handle both Angular and Non-Angular
 ## Prerequisites
 
 This section details any and all prerequisites in order for the application to be run.
+a. Bestbuy APIs (server) are up and running on your local server -> npm start.
+b. Using Terminal -> Go to the e2e folder from the main folder -> command = cd e2e.
 
 ### Tools
 Below tools/dependencies are required to be installed in the machine from where automation scripts would be triggered-
@@ -28,9 +30,6 @@ Below tools/dependencies are required to be installed in the machine from where 
 ## Installation
 
 The installation section details steps that need to be taken in order to properly install the application.
-Prequisite:
-a. Best APIs are up and running on your local server.
-b. Using Terminal -> Go to the e2e folder from the main folder -> comman = cd e2e.
 
 1. Installation step 1
 
