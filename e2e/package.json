@@ -1,0 +1,27 @@
+{
+  "name": "grid-singularity-test-automation",
+  "version": "1.0.0",
+  "description": "Grid Singularity test automation using Cucumber BDD Framework",
+  "main": "index.js",
+  "scripts": {
+    "e2e": "./node_modules/.bin/protractor ./src/config/config.js"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "4.2.0",
+    "chai-as-promised": "7.1.1",
+    "chromedriver": "^92.0.1",
+    "cucumber": "6.0.5",
+    "cucumber-pretty": "6.0.0",
+    "multiple-cucumber-html-reporter": "1.16.2",
+    "pino": "^6.13.0",
+    "pino-pretty": "^6.0.0",
+    "protractor": "7.0.0",
+    "protractor-cucumber-framework": "6.2.0",
+    "protractor-cucumber-junit": "1.1.3",
+    "protractor-multiple-cucumber-html-reporter-plugin": "1.8.1",
+    "readdir": "1.0.1",
+    "selenium-webdriver": "4.0.0-alpha.7",
+    "webdriver-manager": "^12.1.8"
+  }
+}
