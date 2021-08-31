@@ -17,7 +17,7 @@ This section details any and all prerequisites in order for the application to b
 
 a. Bestbuy APIs (server) are up and running on your local server -> npm start.
 
-b. Using Terminal -> Go to the e2e folder from the main folder -> command = cd e2e.
+b. Using Terminal -> Go to the e2e folder (since this is our main test folder) from the main folder -> command = cd e2e.
 
 ### Tools
 Below tools/dependencies are required to be installed in the machine from where automation scripts would be triggered-
@@ -53,7 +53,7 @@ This command downloads/updates the browser drivers.
 
 •	Delete any “node_modules” folder that may be present
 
-•	Open terminal and cd to the folder where repo is cloned
+•	Open terminal and cd to the e2e folder (Test folder)
 
 •	Run 'npm install' to install relevant dependencies from package.json. This will create a 'node_modules' folder within the framework structure 
 
